@@ -44,7 +44,7 @@ int adder(int X, int Y, int *c, int M) {
         // Place the sum bit s in sum to the appropriate position of S specified by pos.
         S = S | (s << pos);
         }
-        *c = cin ^ cout;
+        //*c = cin ^ cout;
         // Return the result sum.
     return S;
 }
